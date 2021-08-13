@@ -1,0 +1,11 @@
+{{> header title="Films"}}
+    
+    <ul>
+        {{#each films}}
+        <li>{{this.id}} - {{this.name}} - {{this.generes}}</li>
+        {{else}}
+        <li>Sin equipo</li>
+        {{/each}}
+    </ul>
+
+{{> footer year=2021}}
